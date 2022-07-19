@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=pilote\ ir\ us
+comment0.target=Retour(lejos.robotics.navigation.DifferentialPilot,\ lejos.nxt.LightSensor,\ lejos.nxt.UltrasonicSensor)
+comment0.text=\n\ Constructeur\ d'objets\ de\ classe\ Retour\n
+comment1.params=
+comment1.target=void\ action()
+comment1.text=\n\ D\u00E9termine\ les\ actions\ \u00E0\ ex\u00E9cuter\ durant\ le\ trajet\n
+comment2.params=
+comment2.target=void\ suppress()
+comment3.params=
+comment3.target=boolean\ takeControl()
+numComments=4

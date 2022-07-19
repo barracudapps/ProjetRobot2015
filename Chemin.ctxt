@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=pilote\ ir\ sonar
+comment0.target=Chemin(lejos.robotics.navigation.DifferentialPilot,\ lejos.nxt.LightSensor,\ lejos.nxt.UltrasonicSensor)
+comment1.params=
+comment1.target=void\ action()
+comment1.text=\n\ fait\ avancer\ le\ robot\ automatiquement\ et\ de\ facon\ autonome,\ pivote\ \u00E0\ droite\ et\ \u00E0\ \n\ gauche\ pour\ que\ le\ capteur\ infrarouge\ puisse\ d\u00E9tecter\ une\ diff\u00E9rence\ de\ couleur\n\ (blanc,\ gris,\ noir)\ qui\ l'empechera\ de\ foncer\ sur\ un\ obstacle.\n
+comment2.params=
+comment2.target=void\ suppress()
+comment2.text=\n\ provoque\ suppressed\ (arret\ de\ "action")\n
+comment3.params=
+comment3.target=boolean\ takeControl()
+numComments=4

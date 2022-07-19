@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=pilote\ sonar
+comment0.target=EviterVarBehavior(lejos.robotics.navigation.DifferentialPilot,\ lejos.nxt.UltrasonicSensor)
+comment1.params=
+comment1.target=void\ start()
+comment2.params=
+comment2.target=void\ stop()
+comment3.params=
+comment3.target=boolean\ done()
+comment4.params=
+comment4.target=boolean\ takeControl()
+numComments=5

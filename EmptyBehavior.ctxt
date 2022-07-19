@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ start()
+comment0.text=\n\ @pre\ --\n\ @post\ l'action\ est\ demarree\n
+comment1.params=
+comment1.target=void\ stop()
+comment1.text=\n\ @pre\ l'action\ a\ ete\ demarree\n\ @post\ l'action\ est\ interrompue\n
+comment2.params=
+comment2.target=boolean\ done()
+comment2.text=\n\ @pre\ --\n\ @post\ retourne\ {true}\ ssi\ l'action\ est\ terminee\n
+comment3.params=
+comment3.target=void\ action()
+comment3.text=\n\ @pre\ --\n\ @post\ le\ robot\ a\ avance\ jusqu'a\ ce\ que\ {suppress}\ ait\ ete\ appele,\ et\n\ \ \ \ \ \ \ s'est\ ensuite\ arrte.\n
+comment4.params=
+comment4.target=void\ suppress()
+comment4.text=\n\ @pre\ --\n\ @post\ {suppressed\ \=\=\ true},\ ce\ qui\ provoque\ l'arret\ de\ {action}.\n
+comment5.params=
+comment5.target=boolean\ takeControl()
+comment5.text=\n\ @pre\ --\n\ @post\ retourne\ {true}\:\ la\ tache\ est\ toujours\ activable.\n
+numComments=6

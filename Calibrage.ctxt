@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=ir
+comment0.target=Calibrage(lejos.nxt.LightSensor)
+comment0.text=\n\ Calibre\ le\ senseur\ infrarouge\n
+comment1.params=
+comment1.target=void\ action()
+comment1.text=\n\ Calibrage\ du\ noir.\n
+comment2.params=
+comment2.target=void\ suppress()
+comment2.text=\n\ Provoque\ l'arret\ de\ l'action.\n
+comment3.params=
+comment3.target=boolean\ takeControl()
+comment3.text=\n\ Tache\ activable.\n
+comment4.params=
+comment4.target=int\ getBlanc()
+comment5.params=
+comment5.target=int\ getGris()
+comment6.params=
+comment6.target=int\ getNoir()
+numComments=7

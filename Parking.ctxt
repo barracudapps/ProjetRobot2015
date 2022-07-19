@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=pilote\ ir\ us
+comment0.target=Parking(lejos.robotics.navigation.DifferentialPilot,\ lejos.nxt.LightSensor,\ lejos.nxt.UltrasonicSensor)
+comment0.text=\n\ Constructeur\ d'objets\ de\ classe\ Parking\n
+comment1.params=
+comment1.target=void\ action()
+comment1.text=\n\ Un\ exemple\ de\ m\u00E9thode\ -\ remplacez\ ce\ commentaire\ par\ le\ v\u00F4tre\n
+comment2.params=
+comment2.target=void\ suppress()
+comment3.params=
+comment3.target=boolean\ takeControl()
+numComments=4

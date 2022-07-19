@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=pilote\ ir\ us
+comment0.target=Tir(lejos.robotics.navigation.DifferentialPilot,\ lejos.nxt.LightSensor,\ lejos.nxt.UltrasonicSensor)
+comment0.text=\n\ Constructeur\n
+comment1.params=
+comment1.target=void\ action()
+comment1.text=\n\ @pre\:--\n\ @post\:\ Le\ robot\ se\ place\ et\ projette\ la\ bille\n
+comment2.params=
+comment2.target=void\ suppress()
+comment2.text=\n\ @pre\ --\n\ @post\ {suppressed\ \=\=\ true},\ ce\ qui\ provoque\ l'arret\ de\ {action}.\n
+comment3.params=
+comment3.target=boolean\ takeControl()
+numComments=4

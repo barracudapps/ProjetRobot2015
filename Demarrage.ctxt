@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=pilote\ ir\ TS
+comment0.target=Demarrage(lejos.robotics.navigation.DifferentialPilot,\ lejos.nxt.LightSensor,\ lejos.nxt.TouchSensor)
+comment0.text=\n\ Constructeur\ d'objets\ de\ classe\ Demarrage\n
+comment1.params=
+comment1.target=void\ action()
+comment1.text=\n\ Avance\ vers\ le\ mur\ puis\ recule,\ tourne\ et\ avance\ vers\ le\ bouton\ d'activation\ de\ la\ m\u00E9thode\n
+comment2.params=
+comment2.target=void\ suppress()
+comment3.params=
+comment3.target=boolean\ takeControl()
+numComments=4

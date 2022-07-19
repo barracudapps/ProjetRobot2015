@@ -1,0 +1,222 @@
+Project documentation
+<---- javadoc command: ---->
+/Applications/BlueJ.app/Contents/Frameworks/jdk.framework/Versions/A/Contents/Home/bin/javadoc
+-sourcepath
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController
+-source
+1.8
+-classpath
+/Applications/BlueJ.app/Contents/Resources/Java/bluejcore.jar:/Applications/BlueJ.app/Contents/Resources/Java/junit-4.8.2.jar:/Applications/BlueJ.app/Contents/Resources/Java/userlib/pi4j-core.jar:/Applications/BlueJ.app/Contents/Resources/Java/userlib/pi4j-device.jar:/Applications/BlueJ.app/Contents/Resources/Java/userlib/pi4j-gpio-extension.jar:/Applications/BlueJ.app/Contents/Resources/Java/userlib/pi4j-service.jar:/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController
+-d
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/Applications/BlueJ.app/Contents/Resources/Java/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+-doctitle
+SimpleController
+-windowtitle
+SimpleController
+-author
+-version
+-nodeprecated
+-package
+-link
+http://download.oracle.com/javase/8/docs/api/
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EmptyBehavior.java
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/AvancerBehavior.java
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/SimpleController.java
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterVarBehavior.java
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterBehavior.java
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/StopBehavior.java
+<---- end of javadoc command ---->
+Loading source file /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EmptyBehavior.java...
+Loading source file /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/AvancerBehavior.java...
+Loading source file /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/SimpleController.java...
+Loading source file /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterVarBehavior.java...
+Loading source file /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterBehavior.java...
+Loading source file /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/StopBehavior.java...
+Constructing Javadoc information...
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EmptyBehavior.java:1: error: package lejos.robotics.subsumption does not exist
+import lejos.robotics.subsumption.Behavior;
+                                 ^
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EmptyBehavior.java:11: error: cannot find symbol
+public class EmptyBehavior implements Behavior {
+                                      ^
+  symbol: class Behavior
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/AvancerBehavior.java:1: error: package lejos.robotics.navigation does not exist
+import lejos.robotics.navigation.DifferentialPilot;
+                                ^
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/AvancerBehavior.java:2: error: package lejos.robotics.subsumption does not exist
+import lejos.robotics.subsumption.Behavior;
+                                 ^
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/AvancerBehavior.java:10: error: cannot find symbol
+public class AvancerBehavior implements Behavior {
+                                        ^
+  symbol: class Behavior
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/AvancerBehavior.java:13: error: cannot find symbol
+	private DifferentialPilot pilote;	
+	        ^
+  symbol:   class DifferentialPilot
+  location: class AvancerBehavior
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/AvancerBehavior.java:19: error: cannot find symbol
+	public AvancerBehavior(DifferentialPilot pilote) {
+	                       ^
+  symbol:   class DifferentialPilot
+  location: class AvancerBehavior
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/SimpleController.java:1: error: package lejos.robotics.navigation does not exist
+import lejos.robotics.navigation.DifferentialPilot;
+                                ^
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/SimpleController.java:2: error: package lejos.robotics.subsumption does not exist
+import lejos.robotics.subsumption.*;
+^
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/SimpleController.java:3: error: package lejos.nxt does not exist
+import lejos.nxt.*;
+^
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterVarBehavior.java:1: error: package lejos.robotics.navigation does not exist
+import lejos.robotics.navigation.DifferentialPilot;
+                                ^
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterVarBehavior.java:2: error: package lejos.robotics.subsumption does not exist
+import lejos.robotics.subsumption.Behavior;
+                                 ^
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterVarBehavior.java:3: error: package lejos.nxt does not exist
+import lejos.nxt.*;
+^
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterVarBehavior.java:15: error: cannot find symbol
+	private DifferentialPilot pilote;
+	        ^
+  symbol:   class DifferentialPilot
+  location: class EviterVarBehavior
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterVarBehavior.java:16: error: cannot find symbol
+	private UltrasonicSensor sonar;
+	        ^
+  symbol:   class UltrasonicSensor
+  location: class EviterVarBehavior
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterVarBehavior.java:18: error: cannot find symbol
+	public EviterVarBehavior(DifferentialPilot pilote, UltrasonicSensor sonar) {
+	                         ^
+  symbol:   class DifferentialPilot
+  location: class EviterVarBehavior
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterVarBehavior.java:18: error: cannot find symbol
+	public EviterVarBehavior(DifferentialPilot pilote, UltrasonicSensor sonar) {
+	                                                   ^
+  symbol:   class UltrasonicSensor
+  location: class EviterVarBehavior
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterBehavior.java:1: error: package lejos.nxt does not exist
+import lejos.nxt.UltrasonicSensor;
+                ^
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterBehavior.java:2: error: package lejos.robotics.navigation does not exist
+import lejos.robotics.navigation.DifferentialPilot;
+                                ^
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterBehavior.java:3: error: package lejos.robotics.subsumption does not exist
+import lejos.robotics.subsumption.Behavior;
+                                 ^
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterBehavior.java:12: error: cannot find symbol
+public class EviterBehavior implements Behavior {
+                                       ^
+  symbol: class Behavior
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterBehavior.java:15: error: cannot find symbol
+	private DifferentialPilot pilote;
+	        ^
+  symbol:   class DifferentialPilot
+  location: class EviterBehavior
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterBehavior.java:16: error: cannot find symbol
+	private UltrasonicSensor sonar;
+	        ^
+  symbol:   class UltrasonicSensor
+  location: class EviterBehavior
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterBehavior.java:23: error: cannot find symbol
+	public EviterBehavior(DifferentialPilot pilote, UltrasonicSensor sonar) {
+	                      ^
+  symbol:   class DifferentialPilot
+  location: class EviterBehavior
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterBehavior.java:23: error: cannot find symbol
+	public EviterBehavior(DifferentialPilot pilote, UltrasonicSensor sonar) {
+	                                                ^
+  symbol:   class UltrasonicSensor
+  location: class EviterBehavior
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/StopBehavior.java:1: error: package lejos.robotics.navigation does not exist
+import lejos.robotics.navigation.DifferentialPilot;
+                                ^
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/StopBehavior.java:2: error: package lejos.robotics.subsumption does not exist
+import lejos.robotics.subsumption.Behavior;
+                                 ^
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/StopBehavior.java:3: error: package lejos.nxt does not exist
+import lejos.nxt.*;
+^
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/StopBehavior.java:11: error: cannot find symbol
+public class StopBehavior implements Behavior {
+                                     ^
+  symbol: class Behavior
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/StopBehavior.java:13: error: cannot find symbol
+	private DifferentialPilot pilote;	
+	        ^
+  symbol:   class DifferentialPilot
+  location: class StopBehavior
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/StopBehavior.java:19: error: cannot find symbol
+	public StopBehavior(DifferentialPilot pilote) {
+	                    ^
+  symbol:   class DifferentialPilot
+  location: class StopBehavior
+Standard Doclet version 1.8.0_66
+Building tree for all the packages and classes...
+Generating /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/doc/AvancerBehavior.html...
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/AvancerBehavior.java:19: warning - @pre is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/AvancerBehavior.java:19: warning - @post is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/AvancerBehavior.java:29: warning - @pre is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/AvancerBehavior.java:29: warning - @post is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/AvancerBehavior.java:42: warning - @pre is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/AvancerBehavior.java:42: warning - @post is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/AvancerBehavior.java:50: warning - @pre is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/AvancerBehavior.java:50: warning - @post is an unknown tag.
+Generating /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/doc/EmptyBehavior.html...
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EmptyBehavior.java:44: warning - @pre is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EmptyBehavior.java:44: warning - @post is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EmptyBehavior.java:35: warning - @pre is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EmptyBehavior.java:35: warning - @post is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EmptyBehavior.java:19: warning - @pre is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EmptyBehavior.java:19: warning - @post is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EmptyBehavior.java:27: warning - @pre is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EmptyBehavior.java:27: warning - @post is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EmptyBehavior.java:57: warning - @pre is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EmptyBehavior.java:57: warning - @post is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EmptyBehavior.java:65: warning - @pre is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EmptyBehavior.java:65: warning - @post is an unknown tag.
+Generating /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/doc/EviterBehavior.html...
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterBehavior.java:23: warning - @pre is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterBehavior.java:23: warning - @post is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterBehavior.java:34: warning - @pre is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterBehavior.java:34: warning - @post is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterBehavior.java:48: warning - @pre is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterBehavior.java:48: warning - @post is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterBehavior.java:56: warning - @pre is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/EviterBehavior.java:56: warning - @post is an unknown tag.
+Generating /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/doc/EviterVarBehavior.html...
+Generating /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/doc/SimpleController.html...
+Generating /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/doc/StopBehavior.html...
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/StopBehavior.java:19: warning - @pre is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/StopBehavior.java:19: warning - @post is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/StopBehavior.java:28: warning - @pre is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/StopBehavior.java:28: warning - @post is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/StopBehavior.java:37: warning - @pre is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/StopBehavior.java:37: warning - @post is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/StopBehavior.java:44: warning - @pre is an unknown tag.
+/Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/StopBehavior.java:44: warning - @post is an unknown tag.
+Generating /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/doc/package-frame.html...
+Generating /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/doc/package-summary.html...
+Generating /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/doc/package-tree.html...
+Generating /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/doc/constant-values.html...
+Building index for all the packages and classes...
+Generating /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/doc/overview-tree.html...
+Generating /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/doc/index-all.html...
+Building index for all classes...
+Generating /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/doc/allclasses-frame.html...
+Generating /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/doc/allclasses-noframe.html...
+Generating /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/doc/index.html...
+Generating /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/doc/help-doc.html...
+Generating /Users/Baracuda/Documents/Cours/FSAB11/Informatique (LFSAB1401)/Robot/SimpleController/doc/stylesheet.css...
+67 warnings
